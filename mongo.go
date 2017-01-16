@@ -17,9 +17,6 @@ type Handler struct {
 	colName string
 }
 
-func test() {
-}
-
 // mongoItem is a bson representation of a resource.Item
 type mongoItem struct {
 	ID      interface{}            `bson:"_id"`
